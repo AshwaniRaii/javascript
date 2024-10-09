@@ -35,5 +35,23 @@ const newArrs = new Array("Ashwani", "Shivam");
 // 0,1,2,3,4,5  //they bind the value and change array to string
 
 
+//slice splice
+
+// console.log("A ",myArr.slice(1,4))
+// console.log("B ",myArr)
+
+//output:- they return specific value starting location and ending location  they not change or manipulate original array
+// A  [ 1, 2, 3 ]
+// B  [ 0, 1, 2, 3, 4, 5 ]
+
+//splice
+
+console.log("C ",myArr.splice(1,3))
+console.log(myArr);
+
+// output:- they change there original array this is difference b/w splice and slice 
+// C  [ 1, 2, 3 ]
+// [ 0, 4, 5 ]
+
 
 
